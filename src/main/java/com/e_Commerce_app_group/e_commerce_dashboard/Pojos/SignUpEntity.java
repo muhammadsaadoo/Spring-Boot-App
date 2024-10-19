@@ -39,8 +39,7 @@ public class SignUpEntity {
     List<ObjectId> addToCart=new ArrayList<>();
 
 
+    public SignUpEntity() {
 
-
-
-
+    }
 }
