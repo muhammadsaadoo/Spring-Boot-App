@@ -1,0 +1,16 @@
+
+spring:
+  data:
+    mongodb:
+      uri:    mongodb+srv://muhammadsaadoo303:JnjgzJuxOVn15qHQ@e-commerce-dashboard.unxzp.mongodb.net/?retryWrites=true&w=majority&appName=e-commerce-dashboard
+      database : e-commerce-dashboard
+      auto-index-creation : true
+
+server:
+  port: 8081
+#  servlet:
+#    context-path: /e-commerce
+#spring:
+#  profiles:
+#    active: prod
+

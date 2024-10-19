@@ -1,0 +1,45 @@
+
+spring:
+  data:
+    mongodb:
+      uri:    mongodb+srv://muhammadsaadoo303:JnjgzJuxOVn15qHQ@e-commerce-dashboard.unxzp.mongodb.net/?retryWrites=true&w=majority&appName=e-commerce-dashboard
+      database : e-commerce-dashboard
+      auto-index-creation : true
+
+server:
+  port: 8080
+
+
+
+
+#//root package
+
+#logging:
+#  level:
+#    com:
+#      e_Commerce_app_group:
+#        e_commerce_dashboard: TRACE
+
+
+#for whole package?
+#logging:
+#  level:
+#    root: info
+
+
+
+#root:off
+
+#  servlet:
+#    context-path: /e-commerce
+
+
+#we can use xml for seperate of concerns..........................
+
+#logging:
+#  level:
+#    com:
+#      e_Commerce_app_group:
+#        e_commerce_dashboard:
+#          Services:
+#            CategoryService: TRACE
